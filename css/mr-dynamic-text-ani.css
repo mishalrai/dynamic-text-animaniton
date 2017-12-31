@@ -1,0 +1,27 @@
+#mr-dynamic-wrapper {
+  font-size: 75px;
+  line-height: 1;
+  font-weight: 300;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  text-transform: uppercase;
+  display: inline-block; }
+  #mr-dynamic-wrapper > div {
+    float: left; }
+    #mr-dynamic-wrapper > div.text-slider {
+      margin: 0 20px;
+      background: red;
+      padding: 0 10px;
+      overflow: hidden;
+      text-align: center; }
+      #mr-dynamic-wrapper > div.text-slider ul {
+        margin: 0;
+        padding: 0;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      #mr-dynamic-wrapper > div.text-slider li {
+        line-height: 1;
+        list-style: none; }
+
+/*# sourceMappingURL=mr-dynamic-text-ani.css.map */

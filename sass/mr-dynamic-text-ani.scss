@@ -1,0 +1,39 @@
+$mr-text-color: red;
+$mr-text-animation : all 0.3s ease-in-out;
+
+#mr-dynamic-wrapper {
+    font-size: 75px;
+    line-height: 1;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    display: inline-block;
+
+    >div {
+        float: left;
+       
+        &.text-slider {
+            margin: 0 20px;
+            background: $mr-text-color;
+            padding: 0 10px;
+            overflow: hidden;
+            text-align: center;
+            
+            ul {
+                margin:0;
+                padding: 0;
+
+                -webkit-transition:( #{$mr-text-animation} );
+                -moz-transition:( #{$mr-text-animation} );
+                transition:( #{$mr-text-animation} );
+            }
+
+            li {
+                line-height: 1;
+                list-style: none;
+            }
+        }
+    }
+
+}
